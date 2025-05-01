@@ -10,7 +10,7 @@ export function Model(props) {
   const { nodes, materials } = useGLTF('/ROW_Logo_R.glb')
   return (
     <group {...props} dispose={null}>
-      <mesh geometry={nodes.Top_Shape_red.geometry} material={materials.Material} position={[0.101, -0.021, 0.016]} rotation={[Math.PI / 2, 0, 0]} scale={[21.96, 1, 23.518]} />
+      <mesh geometry={nodes.Top_Shape_red002.geometry} material={materials.Material} position={[0.101, -0.021, 0.011]} rotation={[-Math.PI / 2, 0, 0]} scale={[-21.96, -1, -23.518]} />
     </group>
   )
 }
