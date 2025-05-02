@@ -1,5 +1,9 @@
 import App from './App';
+import Model from './Model';
+import Scene from './Scene';
 
 export {
-  App
+  App,
+  Model,
+  Scene
 };
