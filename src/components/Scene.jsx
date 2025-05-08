@@ -3,7 +3,7 @@ import { Canvas } from '@react-three/fiber';
 import { useEffect, useRef } from 'react';
 import { Model } from '.';
 
-function Scene({ modelPath = '/ROW_Logo_R.glb' }) {
+function Scene({ modelPath = 'ROW_Logo_R.glb' }) {
   const canvasRef = useRef();
 
   useEffect(() => {
